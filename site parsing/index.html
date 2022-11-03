@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--2022-11-03T22:55:37+03:00-->
+    <meta http-equiv="Expires" content="Fri, Jan 01 1900 00:00:00 GMT">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <meta http-equiv="Lang" content="ru">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Продажа 3-комнатной квартиры 74.1/46.5/8 кв.м, этаж 5/5. Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 - 23000000 руб. | RussianRealty</title>
+    <link rel="stylesheet" type="text/css" href="//www.russianrealty.ru/bitrix/templates/main/libs/jquery/jquery-ui-1.11.4.custom.min.css" />
+    <link rel="stylesheet" type="text/css" href="//www.russianrealty.ru/bitrix/templates/main/css/style.css?v=abffcc2" />
+    <link rel="stylesheet" type="text/css" href="//www.russianrealty.ru/bitrix/templates/main/css/mob-container.css?v=abffcc2" />
+    <link rel="stylesheet" type="text/css" href="//www.russianrealty.ru/bitrix/templates/main/css/print.css?v=abffcc2" media="print" />
+    <script type="text/javascript">COOKIE_DOMAIN='.russianrealty.ru'</script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/libs/layzr/layzr.min.js"></script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/global_subdomain_list.js?v=abffcc2"></script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/libs/jquery/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/libs/jquery/jquery.cookie.js"></script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/libs/jquery/jquery-ui-1.11.4.custom.min.js"></script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/jquery.ui.touch.js"></script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/xdRRrpcClient.js?v=abffcc2"></script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/CUtils.js?v=abffcc2"></script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/base64v1_0.js"></script>
+    <script type="text/javascript" src="//ox.russianrealty.ru/www/d/fl.js"></script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/ox.js?v=abffcc2"></script>
+<!--    <script type="text/javascript" src="--><!--js/jquery.airStickyBlock.min.js?v=--><!--"></script>-->
+    <link rel="icon" href="//www.russianrealty.ru/favicon.ico" type="image/x-icon" /><link rel="shortcut icon" href="//www.russianrealty.ru/favicon.ico" type="image/x-icon" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+
+<script type="text/javascript" src="//www.russianrealty.ru/catalog/form/CSearchFormAddress.js?v=abffcc2"></script>
+<script type="text/javascript" src="//www.russianrealty.ru/catalog/form/rf-api-dic.js?v=abffcc2"></script>
+<script type="text/javascript" src="//www.russianrealty.ru/catalog/form/rf-dic.js?v=abffcc2"></script>
+<script type="text/javascript" src="//www.russianrealty.ru/catalog/form/utils.js?v=abffcc2"></script>
+<script type="text/javascript" src="//www.russianrealty.ru/catalog/subway/subway_data.js?v=abffcc2"></script>
+<script type="text/javascript" src="//www.russianrealty.ru/catalog/subway/CSubway.js?v=abffcc2"></script>
+<script type="text/javascript" src="//www.russianrealty.ru/catalog/form/rf.js?v=abffcc2"></script>
+<script type="text/javascript" src="//www.russianrealty.ru/catalog/form/CCatalog.js?v=abffcc2"></script>
+<script type="text/javascript" src="//www.russianrealty.ru/catalog/form/jquery.tmpl.js?v=abffcc2"></script>
+<script id="catalog-tpl-address" type="text/x-jquery-tmpl">
+    <div class="catalog-address">
+        ${address}
+        {%if subway.title%}<div class="path"><span class="subway-line-${subway.line}"></span>&nbsp;<span>&laquo;${subway.title}&raquo;{%if subway.path%},{%/if%}</span> <span>${subway.path}</span></div>{%/if%}
+    </div>
+</script>
+
+<script id="catalog-tpl-adv" type="text/x-jquery-tmpl">
+    <div id="catalog-bcont-${adv}" class="catalog-bcont"></div>
+</script>
+
+<script id="catalog-tpl-desc" type="text/x-jquery-tmpl">
+    <div class="desc">
+        <p>${desc}</p>
+        <a target="_blank" class="a-more" href="${url}">Подробнее</a>
+    </div>
+</script>
+
+<script id="catalog-tpl-gallery" type="text/x-jquery-tmpl">
+    <div class="gallery">
+        <div id="gallery-${index}">
+            <div class="gallery-main">
+                <a class="gallery-main-image" target="_blank" href="${url}"><figure>
+                    <img {%if images.cover%}src="${images.cover}"{%/if%}{%if images.layzcover%}data-layzr="${images.layzcover}"{%/if%}{%if !images.cover&&!images.layzcover%}src="/images/sf-empty.png"{%/if%}{%if images.cover||images.layzcover%} alt="${images.alt}" title="${images.title}"{%/if%} />
+                    <span class="image-counter">{%if images.total%}${images.total}{%else%}Нет{%/if%} фото</span>
+                </figure></a>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script id="catalog-tpl-opts" type="text/x-jquery-tmpl">
+    <ul class="opts">
+        {%if stage&&stage.current&&!stage.total%}<li class="stage" title="${stage.current} этаж">${stage.current} этаж</span></li>{%/if%}
+        {%if stage&&stage.total&&!stage.current%}<li class="stage" title="${stage.total}-этажный дом">${stage.total}-этажный дом</li>{%/if%}
+        {%if stage&&stage.total&&stage.current%}<li class="stage" title="${stage.current} этаж ${stage.total}-этажного дома"><span>${stage.current} этаж</span> <span class="delimiter">/</span> <span class="addon">${stage.total}<span>-этажного дома</span></span></li>{%/if%}
+        {%each opts%}<li title="{%if $value.title%}${$value.title}{%else%}${$value.i}{%/if%}"><div>${$value.i}</div></li>{%/each%}
+    </ul>
+</script>
+
+<script id="catalog-tpl-params" type="text/x-jquery-tmpl">
+    <h4><a target="_blank" href="${url}">${params}</a></h4>
+</script>
+
+<script id="catalog-tpl-premium" type="text/x-jquery-tmpl">
+    <div class="premium-label">
+        <i class="i-hand-o-right"></i>
+		{%if !favorite%}
+		<span>Премиум</span>
+		{%else%}
+		<span>Гильдия Риэлторов</span>		
+		{%/if%}        
+    </div>
+</script>
+
+<script id="catalog-tpl-price" type="text/x-jquery-tmpl">
+    <div class="price">
+        <div>
+            {%if !cancel%}<span>${price.price} руб.${price.period}</span>{%/if%}{%if cancel%}<span>Снято с публикации</span>{%/if%}
+            
+            {%if price.commission%}<span class="commission">${price.commission}</span>{%/if%}
+        </div>
+        {%if price.mortgage||price.haggle||price.deposit%}
+        <ul class="list-stickers">
+            {%if price.mortgage%}<li class="green">Ипотека</li>{%/if%}
+            {%if price.deposit%}<li class="green">Залог</li>{%/if%}
+            {%if price.haggle%}<li class="red">Торг</li>{%/if%}
+        </ul>
+        {%/if%}
+    </div>
+</script>
+
+<script id="catalog-tpl-image" type="text/x-jquery-tmpl">
+    <div class="row{%if (premium&&!cancel)||(favorite&&!cancel)%} premium{%/if%}{%if cancel%} cancel{%/if%}">
+        {%tmpl $('#catalog-tpl-image-'+window.catalog_cols)%}
+    </div>
+    {%if adv%}{%tmpl $('#catalog-tpl-adv')%}{%/if%}
+</script>
+
+<script id="catalog-tpl-image-1" type="text/x-jquery-tmpl">
+    <div class="part-1">
+        <div class="inner-top">
+            {%tmpl $('#catalog-tpl-params')%}
+            {%if (premium&&!cancel)||(favorite&&!cancel)%}{%tmpl $('#catalog-tpl-premium')%}{%/if%}
+        </div>
+        {%tmpl $('#catalog-tpl-gallery')%}
+        <div class="inner-bottom">
+            {%tmpl $('#catalog-tpl-price')%}
+            {%tmpl $('#catalog-tpl-address')%}
+        </div>
+    </div>
+    <div class="part-2">
+        {%tmpl $('#catalog-tpl-opts')%}
+        {%tmpl $('#catalog-tpl-desc')%}
+    </div>
+</script>
+
+<script id="catalog-tpl-image-2" type="text/x-jquery-tmpl">
+    <div class="part-1">
+        <div class="inner-top">
+            {%tmpl $('#catalog-tpl-params')%}
+            {%if (premium&&!cancel)||(favorite&&!cancel)%}{%tmpl $('#catalog-tpl-premium')%}{%/if%}
+        </div>
+        {%tmpl $('#catalog-tpl-gallery')%}
+    </div>
+    <div class="part-2">
+        {%tmpl $('#catalog-tpl-price')%}
+        {%tmpl $('#catalog-tpl-address')%}
+        {%tmpl $('#catalog-tpl-opts')%}
+        {%tmpl $('#catalog-tpl-desc')%}
+    </div>
+</script>
+
+<script id="catalog-tpl-image-3" type="text/x-jquery-tmpl">
+    <div class="part-1">
+        {%if (premium&&!cancel)||(favorite&&!cancel)%}{%tmpl $('#catalog-tpl-premium')%}{%/if%}
+        {%tmpl $('#catalog-tpl-gallery')%}
+    </div>
+    <div class="part-2">
+        {%tmpl $('#catalog-tpl-params')%}
+        {%tmpl $('#catalog-tpl-address')%}
+        {%tmpl $('#catalog-tpl-opts')%}
+    </div>
+    <div class="part-3">
+        {%tmpl $('#catalog-tpl-price')%}
+        {%tmpl $('#catalog-tpl-desc')%}
+    </div>
+</script>
+<meta name="description" content="Купить 3-комнатную квартиру 74.1/46.5/8 кв.м, этаж 5/5. Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 по цене 23000000 руб. на сайте недвижимости RussianRealty." />
+<meta name="keywords" content="продажа,3-комнатной,квартиры,этаж,москва,метро,ленинский,проспект,орджоникидзе,5к2" />
+<script type="text/javascript">
+var gaq_setCustomVar_Object="Imported";
+var gaq_setCustomVar_Object_source_id="10831";
+</script>
+<script type="text/javascript">var mortgage_ban_per_month="229&nbsp;043,05";</script>
+<link rel="canonical" href="//www.russianrealty.ru/prodazha-kvartiry-429537537-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt/" />
+<script type="text/javascript">window.global_spec_ban_priority="pv,pk";</script>
+    
+    <!-- calltouch -->
+    <script type="text/javascript">
+        (function(w,d,n,c){w.CalltouchDataObject=n;w[n]=function(){w[n]["callbacks"].push(arguments)};if(!w[n]["callbacks"]){w[n]["callbacks"]=[]}w[n]["loaded"]=false;if(typeof c!=="object"){c=[c]}w[n]["counters"]=c;for(var i=0;i<c.length;i+=1){p(c[i])}function p(cId){var a=d.getElementsByTagName("script")[0],s=d.createElement("script"),i=function(){a.parentNode.insertBefore(s,a)};s.type="text/javascript";s.async=true;s.src="https://mod.calltouch.ru/init.js?id="+cId;if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",i,false)}else{i()}}})(window,document,"ct","flsgbgiv");
+    </script>
+    <!-- calltouch -->
+
+<meta name="mailru-domain" content="GJF93aLLJqByXuxp" />
+</head>
+<body>
+
+<script type="text/javascript">
+    var current_url=window.location;
+    try {
+        current_url=decodeURI(current_url);
+    } catch(e) {
+
+    }
+    var global_current_url = current_url;
+    current_url = encodeURI(current_url);
+    current_url = B64.encode(current_url);
+    //alert(current_url);
+    var xcommon_js = '//www.russianrealty.ru/bitrix/templates/main/common-js.php?url='+current_url;
+    document.write('<script type="text/javascript" src="'+xcommon_js+'"><'+'/script>');
+
+    //iss2222
+    xdRRrpcClient.init(
+        {
+            iframe_url:'//www.russianrealty.ru/xd/?abffcc2'
+        },
+        function () {
+            historyView.init();
+        }
+
+    )
+
+</script>
+
+
+
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/996618559/?value=0&amp;label=FD5TCOmx0gMQv-Kc2wM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript><script type="text/javascript">
+ox_render_mobile_overlay();
+</script>
+
+
+
+<div class="wrapper">
+    <div class="container">
+
+        <div id="top-container"></div>
+                <script type="text/javascript">ox_render_top_container();</script>
+        <header class="header">
+
+            <nav class="panel-top">
+                <div class="half-left">
+                    <nav class="logo"><a href="//www.russianrealty.ru/"><img src="https://www.russianrealty.ru/bitrix/templates/main/images/logo.png" /></a></nav>
+                                        <nav class="region"><a href="//www.russianrealty.ru/goroda-i-regiony/">Москва</a> <i class="i-chevron"></i></nav>
+                    <div class="modal-dialog region-modal" id="region-modal">
+                        <header>
+                            <div class="address-container">
+                                <h3>Ваш город: <span class="region-name">Москва</span></h3>
+                                <span class="confirm-region-buttons" style="display: none;">
+                                    <button type="button" class="btn confirm-region-button-yes" data-region-lid="r.82">Да</button>
+                                    <button type="button" class="btn confirm-region-button-other">Другой</button>
+                                </span>
+                            </div>
+                        </header>
+                        <div class="inner">
+                            <h3>Выберите город или регион:</h3>
+                            <span id="region-combobox" class="combobox"><input type="text" placeholder="Введите название..." /></span>
+                            <div class="popular">
+                                <strong>Популярные:</strong>
+                                <span class="list-"></span>
+                            </div>
+                            <div class="go-more"><a href="//www.russianrealty.ru/goroda-i-regiony/">Показать все города и регионы</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="half-right">
+                    <nav class="auth " id="top-auth-container">
+                        
+
+
+	
+			<span>Личный кабинет:</span>
+
+	<a href="//www.russianrealty.ru/personal/" class="a-login">Войти</a>
+
+    <form method="post" target="_top" action="//www.russianrealty.ru/personal/auth.php?login=yes&backurl=%2Fprodazha-kvartiry-429537537-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt%2F" id="t-auth-form">
+	
+                    <input type="hidden" name="backurl" value="/prodazha-kvartiry-429537537-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt/" />
+        
+        
+        <input type="hidden" name="AUTH_FORM" value="Y" />
+        <input type="hidden" name="TYPE" value="AUTH" />
+
+        <label>E-mail</label>
+        <input name="USER_LOGIN" type="text" id="USER_LOGIN" value="" />
+
+        <label>Пароль</label>
+        <input name="USER_PASSWORD" type="password" id="USER_PASSWORD" value="" />
+
+        <input type="submit" name="Login" value="Войти" class="button" />
+
+        <a href="//www.russianrealty.ru/personal/auth.php?forgot_password=yes">Забыли пароль?</a>
+        
+    </form>
+
+	<a href="//www.russianrealty.ru/personal/register.php" class="reg">Зарегистрироваться</a>
+
+	
+			
+                    </nav>
+                    <script type="text/javascript">render_top_auth();</script>
+
+                    <nav class="addobj">
+                        <a href="//www.russianrealty.ru/personal/object/" class="button success"><i class="i-plus"></i><span>Подать объявление</span></a>
+                    </nav>
+
+                </div>
+            </nav>
+
+            <nav class="row">
+                
+                  
+
+                   <div class="nav-top">
+                       <ul class="nav-base">
+                           <li data-href="//www.russianrealty.ru/baza-nedvizhimosti/"><a href="//www.russianrealty.ru/baza-nedvizhimosti/">База недвижимости</a></li>                           <li data-href="//www.russianrealty.ru/novostrojki/"><a href="//www.russianrealty.ru/novostrojki/">Новостройки Москвы и МО</a></li><li data-href="https://www.russianrealty.ru/Продажа-коммерческой-недвижимости/"><a href="https://www.russianrealty.ru/Продажа-коммерческой-недвижимости/">Коммерческая недвижимость</a></li><li data-href="//www.russianrealty.ru/company/"><a href="//www.russianrealty.ru/company/">Компании</a></li><li data-href="//www.russianrealty.ru/directory/consultants/"><a href="//www.russianrealty.ru/directory/consultants/">Риэлторы/консультанты</a></li><li data-href="//www.russianrealty.ru/useful/"><a href="//www.russianrealty.ru/useful/">Справочник</a></li><li data-href="//www.russianrealty.ru/tidings/company/"><a href="//www.russianrealty.ru/tidings/company/">Новости</a></li><li data-href="//www.russianrealty.ru/analytic/articles/companies/"><a href="//www.russianrealty.ru/analytic/articles/companies/">Статьи</a></li>                           <li class="nav-sandwich">
+                               <nav class="dropdown">
+                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="i-sandwich"></i></a>
+                                   <ul class="dropdown-menu">
+                                       <li data-href="//www.russianrealty.ru/novostrojki/"><a href="//www.russianrealty.ru/novostrojki/">Новостройки Москвы и МО</a></li><li data-href="https://www.russianrealty.ru/Продажа-коммерческой-недвижимости/"><a href="https://www.russianrealty.ru/Продажа-коммерческой-недвижимости/">Коммерческая недвижимость</a></li><li data-href="//www.russianrealty.ru/company/"><a href="//www.russianrealty.ru/company/">Компании</a></li><li data-href="//www.russianrealty.ru/directory/consultants/"><a href="//www.russianrealty.ru/directory/consultants/">Риэлторы/консультанты</a></li><li data-href="//www.russianrealty.ru/useful/"><a href="//www.russianrealty.ru/useful/">Справочник</a></li><li data-href="//www.russianrealty.ru/tidings/company/"><a href="//www.russianrealty.ru/tidings/company/">Новости</a></li><li data-href="//www.russianrealty.ru/analytic/articles/companies/"><a href="//www.russianrealty.ru/analytic/articles/companies/">Статьи</a></li>                                   </ul>
+                               </nav>
+                           </li>
+                       </ul>
+                   </div>            </nav>
+
+        </header>
+
+            <div class="row two-cols airSticky_stop-block">
+                <!--content-->
+
+                <div class="col-lg-9 col-md-8 col-sm-6 content">
+
+                <div id="mobile_under_top">
+                    <!-- Yandex.RTB R-A-204911-10 -->
+                    <div id="yandex_rtb_R-A-204911-10"></div>
+                    <script type="text/javascript">
+                        (function(w, d, n, s, t) {
+                            w[n] = w[n] || [];
+                            w[n].push(function() {
+                                Ya.Context.AdvManager.render({
+                                    blockId: "R-A-204911-10",
+                                    renderTo: "yandex_rtb_R-A-204911-10",
+                                    async: true
+                                });
+                            });
+                            t = d.getElementsByTagName("script")[0];
+                            s = d.createElement("script");
+                            s.type = "text/javascript";
+                            s.src = "//an.yandex.ru/system/context.js";
+                            s.async = true;
+                            t.parentNode.insertBefore(s, t);
+                        })(this, this.document, "yandexContextAsyncCallbacks");
+                    </script>
+                </div>
+                <script>
+                    $( document ).ready(function() {
+                        if(isMobileBrowser) {
+                            $('#mobile_under_top').show();
+                        }
+                    });
+                </script>
+
+                    <section class="search-form row"></section>
+
+                <nav class="breadcrumbs"><ul><li><a href="//www.russianrealty.ru/" title="Независимый портал о недвижимости Москвы и России" >RussianRealty</a></li><li><i class="i-raquo"></i> <a href="//www.russianrealty.ru/baza-nedvizhimosti/" title="Недвижимость в Москве" >Москва</a></li><li><i class="i-raquo"></i> <a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/" title="Квартиры в Москве" >Купить квартиру</a></li><li><i class="i-raquo"></i> <a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/3-%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%BD%D1%8B%D0%B5/" title="Продажа 3-комнатных квартир в Москве" >3-комнатную</a></li><li><i class="i-raquo"></i> <a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82-%D0%BC%D0%B5%D1%82%D1%80%D0%BE/3-%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%BD%D1%8B%D0%B5/" title="Продажа 3-комнатных квартир у метро Ленинский проспект, Москва" >метро Ленинский проспект</a></li><li><i class="i-raquo"></i> <a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/%D0%9E%D1%80%D0%B4%D0%B6%D0%BE%D0%BD%D0%B8%D0%BA%D0%B8%D0%B4%D0%B7%D0%B5-%D1%83%D0%BB%D0%B8%D1%86%D0%B0/3-%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%BD%D1%8B%D0%B5/" title="Продажа 3-комнатных квартир на улице Орджоникидзе, Москва" >улица Орджоникидзе</a></li><li class="active"><i class="i-raquo"></i> <a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/%D0%9E%D1%80%D0%B4%D0%B6%D0%BE%D0%BD%D0%B8%D0%BA%D0%B8%D0%B4%D0%B7%D0%B5-%D1%83%D0%BB%D0%B8%D1%86%D0%B0/%D0%B4%D0%BE%D0%BC-5%D0%BA2/3-%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%BD%D1%8B%D0%B5/" title="Продажа 3-комнатных квартир на улице Орджоникидзе, дом 5к2, Москва" >дом 5к2</a></li></ul></nav>                
+                <script>historyView.add('100-100-429537537', 'r.82');</script>    <section class="catalog-form row"></section>
+    <script type="text/javascript">
+        $(window).load(function(){
+            $('.catalog-form').rf({
+                'query_string' : 'a=100&p=100&c=1&r=82&m=125&p0=20700000&p1=25300000',
+                'use_geo_cookie': false            });
+        });
+
+        function search_go(query_string){
+            var ie_expr = new RegExp('(.*)Trident(.*)');
+            if (navigator.userAgent.match(ie_expr)) {
+                window.location =  '/catalog/?'+query_string.split('&lt').join('&amp;lt');
+            }else{
+                window.location =  '/catalog/?'+query_string;//query_string.split('&lt').join('&amp;lt');
+            }
+        }
+
+        function rf_wait(val){$._setWaiting(val,'ext');}
+        function rf_lock(val){$._setDisable(val,'ext');}
+    </script>
+
+    <script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>    <article class="catalog-card" itemscope itemtype="//schema.org/Product">
+    <header>
+        <nav class="nav-buttons">
+            <a class="a-share" title="Поделиться"><span class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="icon"></span></a>
+            <a class="a-print" title="Распечатать объявление"><i class="i-print"></i></a>
+        </nav>
+        <h1 itemprop="name">Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2</h1>
+
+        
+                        
+        <div class="price" itemprop="offers" itemscope itemtype="//schema.org/Offer">
+            <h3><strong class="price-total" itemprop="price" content="23000000">23 000 000 <span itemprop="priceCurrency" content="RUB">руб.</span></strong><span class="price-square">(310 811 р./м&sup2;)</span></h3>
+            <ul class="list-stickers"><li class="green">Ипотека</li><li class="red">Торг</li></ul>            <span id="price-container"></span>
+        </div>
+        <div class="article-notice">
+            <noindex>
+            <div class="address">
+                <span class="street-address">Адрес: <a href="//www.russianrealty.ru/baza-nedvizhimosti/">Москва</a>, <a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/%D0%9E%D1%80%D0%B4%D0%B6%D0%BE%D0%BD%D0%B8%D0%BA%D0%B8%D0%B4%D0%B7%D0%B5-%D1%83%D0%BB%D0%B8%D1%86%D0%B0/3-%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%BD%D1%8B%D0%B5/">ул. Орджоникидзе</a>, <a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/%D0%9E%D1%80%D0%B4%D0%B6%D0%BE%D0%BD%D0%B8%D0%BA%D0%B8%D0%B4%D0%B7%D0%B5-%D1%83%D0%BB%D0%B8%D1%86%D0%B0/%D0%B4%D0%BE%D0%BC-5%D0%BA2/3-%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%BD%D1%8B%D0%B5/">5к2</a></span>
+                <span class="i-compass"><a title="Показать на Яндекс.Карте" target="_blank" href="//maps.yandex.ru/?text=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C+%D1%83%D0%BB.+%D0%9E%D1%80%D0%B4%D0%B6%D0%BE%D0%BD%D0%B8%D0%BA%D0%B8%D0%B4%D0%B7%D0%B5%2C+5%D0%BA2">Показать на Яндекс.Карте</a></span>
+                <span class="i-close hide"><a title="Скрыть Яндекс.Карту" href="#">Скрыть Яндекс.Карту</a></span>
+            </div>
+                        <script src="//api-maps.yandex.ru/2.1/?load=package.full&lang=ru_RU" type="text/javascript"></script>            <div id="map" class="map"></div>
+                        </noindex>
+            <script>
+                var myMap,
+                    address = 'Москва, ул. Орджоникидзе, 5к2',
+                    coords = [55.70918,37.600846],
+                    zoom = 16,
+                    controls = ['zoomControl','searchControl','typeSelector','fullscreenControl'],
+                    fitToViewport = 'always',
+                    iconPreset = 'islands#blueDotIcon',
+                    iconColor = '#326596',
+                    win = $(window),
+                    opener = $('.i-compass'),
+                    closer = $('.i-close'),
+                    cl = 'hide',
+                    map = $('#map'),
+                    mapInited = false,
+                    padding = 30,
+                    spinner,
+                    loadListener,
+                    loadTimeout = 1000;
+
+                win.resize(function(){
+                    var viewport = $(window).width(),
+                        width,height;
+
+                    if(viewport>=cutils.size.full) width = cutils.size.max;
+                    else if(viewport>=cutils.maxSize) width = cutils.size.max*0.6666666;
+                    else if(viewport>=cutils.size.midi) width = viewport*0.6666666;
+                    else if(viewport>=cutils.size.mini) width = viewport/2;
+                    else width = viewport;
+
+                    width = Math.ceil(width - padding);
+                    height = Math.ceil(width*0.6666666);
+                    map.css({width:width+'px',height:height+'px'});
+                }).resize();
+                win.load(function(){
+                    if(!mapInited)loadListener = setTimeout(function(){if(!mapInited)initMap(false);},loadTimeout);
+                });
+
+                function showMap(){
+                    if(spinner)spinner.remove();
+                    if(!coords){
+                        ymaps.geocode(address).then(function(res){
+                            var geoObj = res.geoObjects.get(0),
+                                precision = geoObj.properties.get('metaDataProperty.GeocoderMetaData.precision');
+                            coords = geoObj.geometry.getCoordinates();
+                            switch(precision){
+                                case 'other':
+                                    zoom = 12;
+                                    break;
+                                case 'street':
+                                    zoom = 14;
+                                    break;
+                                case 'range':
+                                case 'near':
+                                case 'number':
+                                    zoom = 16;
+                                    break;
+                                case 'exact':
+                                    zoom = 17;
+                                    break;
+                            }
+                            myMap = new ymaps.Map('map',{
+                                center: coords,
+                                zoom: zoom,
+                                controls: controls
+                            },{
+                                autoFitToViewport: fitToViewport
+                            });
+                            var placemark = new ymaps.Placemark(coords,{
+                                balloonContentBody: address
+                            },{
+                                preset: iconPreset,
+                                iconColor: iconColor
+                            });
+                            myMap.geoObjects.add(placemark);
+                            myMap.behaviors.disable('scrollZoom');
+                        });
+                    }else{
+                        myMap = new ymaps.Map('map',{
+                            center: coords,
+                            zoom: zoom,
+                            controls: controls
+                        }, {
+                            autoFitToViewport: fitToViewport
+                        });
+                        var placemark = new ymaps.Placemark(coords,{
+                            balloonContentBody: address
+                        },{
+                            preset: iconPreset,
+                            iconColor: iconColor
+                        });
+                        myMap.geoObjects.add(placemark);
+                        myMap.behaviors.disable('scrollZoom');
+                    }
+                }
+                function initMap(val){
+                    if(val){
+                        if(!spinner && !map.is(':hidden')){
+                            map.html('<i class="fa-spin fa-compass"></i>');
+                            spinner = $('.fa-compass');
+                        }
+                    }
+                    mapInited = true;
+                    ymaps.ready(showMap);
+                }
+
+                opener.click(function(e){
+                    e.preventDefault();
+                    opener.addClass(cl);
+                    closer.removeClass(cl);
+                    map.show();
+                    if(!mapInited)initMap(true);
+                });
+                closer.click(function(e){
+                    e.preventDefault();
+                    closer.addClass(cl);
+                    opener.removeClass(cl);
+                    map.hide();
+                });
+            </script>
+        </div>
+    </header>
+
+    <div class="article-body" >
+                <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 desc-list">
+
+                <div class="desc">Ближайшая ст. метро:<br /><span class="subway-line-5"></span> <a class="linked-metro" href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82-%D0%BC%D0%B5%D1%82%D1%80%D0%BE/3-%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%BD%D1%8B%D0%B5/">Ленинский проспект</a><br /></div>
+                                                    <table class="item-space">
+                        <thead>
+                        <tr>
+                            <th>Общая</th>                            <th>Жилая</th>                            <th>Кухня</th>                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>74.1 м&sup2;</td>                            <td>46.5 м&sup2;</td>                            <td>8 м&sup2;</td>                        </tr>
+                        </tbody>
+                    </table>
+                                    
+                <ul><li>5 этаж 5-этажного дома</li><li>Статус продажи: Прямая продажа</li>
+<li>Балкон: балкон</li>
+<li>Санузел: раздельный</li>
+<li>Ремонт: косметический</li>
+<li>Вид из окон: во двор и на улицу</li>
+<li>Тип дома: кирпичный</li>
+<li>Наличие лифта: да</li>
+</ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 item-aside">
+                <div class="list-contact vcard"><div><label>Контакт:</label><strong class="fn agent">Градомиръ</strong></div><div><label>Компания:</label><strong class="org">Градомиръ</strong></div><div><label>Телефон:</label><span id="contact-phones"><span class="phone">8 495 159-XX-XX</span><button class="btn phone" type="button" style="font-weight: normal; margin-top:4px;" onclick="javascript:detail_show_phones();">Показать телефон</button></span><script>$( document ).ready(function() {
+                                $.ajax({
+                                  method: "POST",
+                                  url: "/tools/api/stat.php",
+                                  data: { adv_id: "100-100-429537537" }
+                                });                            
+                            });function detail_show_phones(){
+                        $.ajax({
+                          method: "POST",
+                          url: "/tools/api/clickcounter.php",
+                          data: { adv_id: "100-100-429537537", url:"//www.russianrealty.ru/prodazha-kvartiry-429537537-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt/" }
+                        });
+  
+                        $("#contact-phones").html('<a href="tel:84951593542" class="phone tel">8 495 159-35-42</a><p>Скажите продавцу, что Вы звоните по&nbsp;объявлению на сайте RussianRealty (РашенРиэлти).</p></div>');
+                        try {_gaq.push(['_trackEvent', 'ShowContacts', 'Phone_card']);}
+                        catch(e){};
+                        };// enums_ok --></script></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="item-status">
+                                                            <div>Добавлено: <time>06.09.2022</time></div>
+                                                            <div>Обновлено: <time>02.11.2022</time></div>
+                                    </div>
+                
+                <!-- Yandex.RTB R-A-204911-2 -->
+                <div id="yandex_rtb_R-A-204911-2" style="margin:10px 0;"></div>
+                <script type="text/javascript">
+                    (function(w, d, n, s, t) {
+                        w[n] = w[n] || [];
+                        w[n].push(function() {
+                            Ya.Context.AdvManager.render({
+                                blockId: "R-A-204911-2",
+                                renderTo: "yandex_rtb_R-A-204911-2",
+                                async: true
+                            });
+                        });
+                        t = d.getElementsByTagName("script")[0];
+                        s = d.createElement("script");
+                        s.type = "text/javascript";
+                        s.src = "//an.yandex.ru/system/context.js";
+                        s.async = true;
+                        t.parentNode.insertBefore(s, t);
+                    })(this, this.document, "yandexContextAsyncCallbacks");
+                </script>
+                
+                                    <style>
+                        #copies-block{
+                            margin-top: 16px;
+                        }
+                        #cp-button {
+                            margin-left: -8px;
+                        }
+                        #cp-container {
+                            margin-top: 20px;
+                            display: none;
+                        }
+
+                        #cp-container a.cp-price {
+                            margin-top: 5px;
+                            display: block;                            ;
+                        }
+                        #cp-container div.cp-item {
+                            margin-left: -16px;
+                            padding: 15px 0px 15px 16px;
+                            border-top: 1px solid #cccccc;
+
+                        }
+                        #cp-container strong.cp-name {
+                            color: black;
+                            display: block;
+                        }
+                        #cp-container span.cp-addon {
+                            color: black;
+                            display: block;
+                        }
+                    </style>
+                    <script>
+                        function detail_show_copies() {
+                            $("#cp-container").toggle();
+                            if ($("#cp-button").hasClass("active")) {
+                                $("#cp-button").removeClass("active");
+                            } else {
+                                $("#cp-button").addClass("active");
+                            }
+                            return false;
+                        }// enums_ok -->
+                        </script>
+                    <div class="item-status" id="copies-block"><button type="button" id="cp-button" onclick="javascript:detail_show_copies();">Аналогичные объявления (1)</button><div id="cp-container"><div class="cp-item"><strong class="cp-name">Градомиръ</strong><span class="cp-addon">Русский центр недвижимости и права "Градомиръ"</span><a href="//www.russianrealty.ru/prodazha-kvartiry-430816124-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt/" target="_blank" class="cp-price"><strong>24 000 000 руб.</strong></a></div></div></div>
+                
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 item-pictures">
+
+                                                <h4>Фотографии (19)</h4>
+
+                <nav class="gallery">
+                    <div id="gallery">
+                                                <div class="gallery-main">
+                            <a href="//f3.russianrealty.ru/3/_SegO-gTzP+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" class="gallery-main-image"><figure><img itemprop="image" src="//f3.russianrealty.ru/1/_SegO-gTzP+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 1" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 1" /></figure></a>
+                        </div>
+                        <div class="gallery-previews">
+                            <div class="gallery-slider">
+                            <a href="//f3.russianrealty.ru/3/_SegO-gTzP+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f3.russianrealty.ru/t/_SegO-gTzP+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 1" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 1" /></a><a href="//f3.russianrealty.ru/3/Cv7xl5oDRqi+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f3.russianrealty.ru/t/Cv7xl5oDRqi+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 2" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 2" /></a><a href="//f2.russianrealty.ru/3/Bf8wgM45s0d+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f2.russianrealty.ru/t/Bf8wgM45s0d+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 3" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 3" /></a><a href="//f1.russianrealty.ru/3/ELzvEaPGHN5+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f1.russianrealty.ru/t/ELzvEaPGHN5+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 4" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 4" /></a><a href="//f2.russianrealty.ru/3/FhLW7RTtsQ5+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f2.russianrealty.ru/t/FhLW7RTtsQ5+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 5" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 5" /></a><a href="//f3.russianrealty.ru/3/CrBPmIvNdTZ+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f3.russianrealty.ru/t/CrBPmIvNdTZ+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 6" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 6" /></a><a href="//f3.russianrealty.ru/3/CbCXDPnL4VZ+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f3.russianrealty.ru/t/CbCXDPnL4VZ+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 7" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 7" /></a><a href="//f0.russianrealty.ru/3/DTB7FA-m-J3+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f0.russianrealty.ru/t/DTB7FA-m-J3+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 8" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 8" /></a><a href="//f3.russianrealty.ru/3/CJlip_kLuja+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f3.russianrealty.ru/t/CJlip_kLuja+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 9" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 9" /></a><a href="//f0.russianrealty.ru/3/83l5EiKrZu+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f0.russianrealty.ru/t/83l5EiKrZu+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 10" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 10" /></a><a href="//f3.russianrealty.ru/3/GuzzVI1NjRK+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f3.russianrealty.ru/t/GuzzVI1NjRK+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 11" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 11" /></a><a href="//f2.russianrealty.ru/3/FjdKbl5WFaY+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f2.russianrealty.ru/t/FjdKbl5WFaY+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 12" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 12" /></a><a href="//f3.russianrealty.ru/3/CQ2uyHUfB8e+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f3.russianrealty.ru/t/CQ2uyHUfB8e+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 13" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 13" /></a><a href="//f0.russianrealty.ru/3/DCDQ_seOwde+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f0.russianrealty.ru/t/DCDQ_seOwde+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 14" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 14" /></a><a href="//f0.russianrealty.ru/3/DMoe2nzlKFx+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f0.russianrealty.ru/t/DMoe2nzlKFx+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 15" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 15" /></a><a href="//f0.russianrealty.ru/3/DHGMxneP0J1+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f0.russianrealty.ru/t/DHGMxneP0J1+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 16" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 16" /></a><a href="//f3.russianrealty.ru/3/Gk3zkwOz3gE+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f3.russianrealty.ru/t/Gk3zkwOz3gE+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 17" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 17" /></a><a href="//f3.russianrealty.ru/3/owZ9glnaXA+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f3.russianrealty.ru/t/owZ9glnaXA+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 18" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 18" /></a><a href="//f2.russianrealty.ru/3/vf7-AAHKT7+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"><i class="i-active"></i><img src="//f2.russianrealty.ru/t/vf7-AAHKT7+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt" title="Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 &mdash; фото 19" alt="Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 &mdash; фото 19" /></a>                            </div>
+                        </div>
+                    </div>
+                    <link rel="stylesheet" href="//www.russianrealty.ru/bitrix/templates/main/libs/blueimp-gallery-2.12.5/css/blueimp-gallery.css">
+                                        <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/CGallery4Detail.js?abffcc2"></script>
+                    <script>
+                        var gallery = new CGallery();
+                        gallery.init({
+                            alt:   'Продажа трехкомнатной квартиры, Москва, метро Ленинский проспект, ул. Орджоникидзе, 5к2 — фото ',
+                            title: 'Продажа 3-комнатной квартиры, улица Орджоникидзе, 5к2 — фото ',
+                            images: ["//f3.russianrealty.ru/1/_SegO-gTzP+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f3.russianrealty.ru/1/Cv7xl5oDRqi+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f2.russianrealty.ru/1/Bf8wgM45s0d+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f1.russianrealty.ru/1/ELzvEaPGHN5+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f2.russianrealty.ru/1/FhLW7RTtsQ5+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f3.russianrealty.ru/1/CrBPmIvNdTZ+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f3.russianrealty.ru/1/CbCXDPnL4VZ+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f0.russianrealty.ru/1/DTB7FA-m-J3+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f3.russianrealty.ru/1/CJlip_kLuja+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f0.russianrealty.ru/1/83l5EiKrZu+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f3.russianrealty.ru/1/GuzzVI1NjRK+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f2.russianrealty.ru/1/FjdKbl5WFaY+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f3.russianrealty.ru/1/CQ2uyHUfB8e+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f0.russianrealty.ru/1/DCDQ_seOwde+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f0.russianrealty.ru/1/DMoe2nzlKFx+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f0.russianrealty.ru/1/DHGMxneP0J1+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f3.russianrealty.ru/1/Gk3zkwOz3gE+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f3.russianrealty.ru/1/owZ9glnaXA+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt","//f2.russianrealty.ru/1/vf7-AAHKT7+prodazha-kvartiry-3-komnatnaya-Moskva-ulitsa-Ordzhonikidze-Leninsky-prospekt"],
+                            preview: true,
+                            effect: 'slide-right'
+                        });
+                    </script>
+                </nav>
+                            </div>
+
+            <div class="col-lg-8 col-md-12 col-sm-12 item-about">
+
+                <div id="mb-container" class="spec-article-inner"></div>
+
+                <div class="item-desc" itemprop="description">
+                                            <h4>Описание</h4>
+                        Арт. 32482738 СРОЧНО!!! Продаётся просторная и светлая 3-комнатная квартира в престижном  районе! <br />
+<br />
+Общая площадь 75.7 кв.м., площадь комнат 12+15+19.5 кв.м. <br />
+Есть дополнительная комната площадью 12 кв.м.<br />
+и прихожая, не входит в общую площадь указанную в рекламе! <br />
+<br />
+<br />
+Есть большая и удобная лоджия. Санузел раздельный. Планировка всех комнат и четвертой - изолированная. Квартира расположена на 5 этаже 5-этажного кирпичного дома (индивидуальный проект), здание построено в 1934 году., Пешая доступность до станций метро Ленинский проспект, Площадь Гагарина, Шаболовская, Тульская. Дом расположен удачно, в дали от дорог и шума. Большой просторный двор, детская площадка, парковочные места в любое время! , Район с развитой инфраструктурой, всё необходимое в пешей доступности. Удобные выезды на основные магистрали города. Развитая транспортная сеть. <br />
+ Безопасность сделки обеспечена стандартами работы гильдии риелторов Московской области                                        <nav class="nav-buttons">
+                        <a class="a-share" title="Поделиться"><span class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="icon"></span></a>
+                        <a class="a-print" title="Распечатать объявление"><i class="i-print"></i><span>Распечатать</span></a>
+                    </nav>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="InfoLink-under-card-container"></div>
+
+    </article>
+
+    <script language="javascript">
+        var body = $('body'),
+            content = $('.content'),
+            printLink = $('.a-print');
+        printLink.click(function(){
+            var bodyPadding = body.css('paddingTop');
+            body.css('paddingTop',0);
+            content.before('<div class="tmp-style"><style>[class*="cell"]{max-width:inherit!important;}</style></div>');
+            window.print();
+            setTimeout(function(){
+                body.css('paddingTop',bodyPadding);
+                $('.tmp-style').remove();
+            },1000);
+        });
+
+        var shareLink = $('.a-share'),
+            yls = setInterval(function(){
+                shareLink.each(function(){
+                    var el = $(this),
+                        handler = el.find('.b-share__handle').first();
+                    if(handler.html()){
+                        clearInterval(yls);
+                        handler.find('img').attr('src','/bitrix/templates/main/images/i-share.gif');
+                        if(el.parents().hasClass('item-desc'))handler.append('<span>Поделиться</span>');
+                        el.show();
+                    }
+                });
+            },100);
+    </script>
+
+    <footer><p class="light">реклама</p><div id="dtb-container"></div><div class="a-more"><a href="//www.russianrealty.ru/1realty/" rel="nofollow">Еще предложения…</a></div>    <div>
+        <h3>Похожие объявления</h3>
+            
+
+        <section class="catalog">
+            <div id="catalog_list"></div>
+            <script type="text/javascript">
+                window.catalog_list = new CCatalog();
+                window.catalog = catalog_list;
+            catalog_list.init({id: 'catalog_list',limit: 20,pager: false,photolimit: 7,query_string: 'a=100&p=100&c=1&r=82&m=125&p0=20700000&p1=25300000'});            </script>
+        </section>
+        <p class="lift" id="more-variants"><a href="//www.russianrealty.ru/catalog/?a=100&p=100&c=1&r=82&m=125&p0=20700000&p1=25300000">Смотреть все объявления...</a></p>
+    </div>
+
+    <script type="text/javascript">var ox_mode="detail";var ox_a=100;var ox_p=100; var ox_region=82;</script>
+    <style>
+        #dtb-container{overflow: hidden;}
+        .sorting{display: none!important;}
+        .lift{
+            text-align: right;
+            padding-bottom: 20px;
+            margin-top: -10px;
+        }
+    </style>
+
+
+</footer>
+
+
+                    <div class="row">
+                        <!--aside-->
+                        <aside class="col-md-12 context">
+                            <div class="row">
+                                                            </div>
+                        </aside>
+
+                    </div>
+
+                </div>
+
+                <!--adv-->
+                <aside class="col-lg-3 col-md-4 col-sm-6 spec">
+                                        <header>
+                        <h3>Реклама</h3>
+                        <span class="a-more"><a href="//www.russianrealty.ru/1realty/" rel="nofollow">Все</a> <i class="fa-angle-double-right"></i></span>
+                    </header>
+
+                    <div id="gcb-container" class="airSticky"></div>
+
+                    <footer>
+                        <div class="a-more"><a href="//www.russianrealty.ru/1realty/" rel="nofollow">Посмотреть все…</a></div>
+                    </footer>
+
+                </aside>
+
+            </div>
+
+
+        </div>
+		<footer class="footer">
+                <div class="col-lg-9 col-md-12 col-sm-12">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <nav>
+                        <ul class="list">
+                            <li class="toggle">
+                                <a href="#">Недвижимость<i class="i-chevron"></i></a>
+                            </li>
+                            <li><a href="//www.russianrealty.ru/podat-obyavlenie-besplatno/">Дать объявление (бесплатно) о продаже недвижимости</a></li><li><a href="//www.russianrealty.ru/partners/">XML-выгрузка объявлений</a></li><li><a href="//www.russianrealty.ru/baza-nedvizhimosti/">База недвижимости</a></li><li><a href="//www.russianrealty.ru/faq/">Вопросы и ответы о недвижимости</a></li><li><a href="//www.russianrealty.ru/useful/">Справочник</a></li><li><a href="//www.russianrealty.ru/video/">Видео</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <nav>
+                        <ul class="list">
+    <li class="toggle">
+        <a href="#">Купить/снять: каталог, поиск<i class="i-chevron"></i></a>
+    </li>
+    <li><a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/">Купить квартиру</a> / <a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D1%8B%D1%85-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/">вторичку</a> / <a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-%D0%B2-%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B5/">новостройку</a></li>
+    <li><a href="//www.russianrealty.ru/%D0%90%D1%80%D0%B5%D0%BD%D0%B4%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/">Снять квартиру</a> / <a href="//www.russianrealty.ru/%D0%90%D1%80%D0%B5%D0%BD%D0%B4%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82/">аренда комнат</a></li>
+    <li><a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BA%D0%BE%D0%B2/">Купить участок</a> / <a href="//www.russianrealty.ru/%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2/">дом или дачу</a></li>
+    <li><a href="//www.russianrealty.ru/%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C/">Недвижимость Москвы</a></li>
+    <li><a href="//www.russianrealty.ru/novostrojki/">Новостройки Москвы</a></li>
+    <li><a href="//mo.russianrealty.ru/novostrojki/">Новостройки Подмосковья</a></li>
+</ul>                    </nav>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <nav>
+                        <ul class="list">
+                            <li class="toggle">
+                                <a href="#">О проекте<i class="i-chevron"></i></a>
+                            </li>
+
+                            <li><a href="//www.russianrealty.ru/project/">О проекте</a></li><li><a href="//www.russianrealty.ru/advertisers/">Рекламодателям</a></li><li><a href="//www.russianrealty.ru/partners/">Агентствам</a></li><li><a href="//www.russianrealty.ru/contacts/">Контакты</a></li><li><a href="//www.russianrealty.ru/site-map/">Карта сайта</a></li><li><a href="//www.russianrealty.ru/privacy/">Политика конфиденциальности</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 copyright">
+                     &copy; 2002&mdash;2022<br />
+RussianRealty.ru / <a href="//www.russianrealty.ru/" >Вся недвижимость Москвы</a>
+<br />
+Размещение рекламы: <a href="/cdn-cgi/l/email-protection#c9baa8a5acba89bbbcbabaa0a8a7bbaca8a5bdb0e7bbbc"><span class="__cf_email__" data-cfemail="4635272a233506343335352f27283423272a323f683433">[email&#160;protected]</span></a>
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-6 privacy">
+
+					<p>Материалы, размещенные на сайте www.Russian<strong>Realty</strong>.ru являются исключительной собственностью www.Russian<strong>Realty</strong>.ru и защищены законодательством РФ об авторском праве. Полное или частичное использование материалов сайта возможно только с гиперссылкой на данный материал.</p>
+    <p>Сайт использует файлы cookie. Продолжая просмотр сайта вы соглашаетесь с использованием cookie</p>
+
+    <noindex>
+    <!--LiveInternet counter--><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript"><!--
+    document.write("<a href='http://www.liveinternet.ru/click;RussianRealty' "+
+    "target=_blank><img src='//counter.yadro.ru/hit;RussianRealty?t44.6;r"+
+    escape(document.referrer)+((typeof(screen)=="undefined")?"":
+    ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+    screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+    ";"+Math.random()+
+    "' alt='' title='LiveInternet' "+
+    "border='0' width='31' height='31'><\/a>")
+    //--></script><!--/LiveInternet-->
+    </noindex>
+					
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+                <nav class="nav-partners">
+    </nav>
+        </div>
+
+		</footer>
+	</div>
+
+    <!--custom-->
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/client.js?v=abffcc2"></script>
+    <!--data-href-->
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/data-href.js"></script>
+    <!--bootstrap-->
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/libs/bootstrap/js/dropdown.js"></script>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/libs/bootstrap/js/button.js"></script>
+
+    <!--Media-queries-hint-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+	<script type="text/javascript" src="//www.russianrealty.ru/bitrix/templates/main/js/old_staff.js?v=abffcc2"></script>
+<!--    <script>-->
+<!--        jQuery(document).ready(function($){-->
+<!--            window.onload = function() {-->
+<!--                var stickyBlockHeight = $('.airSticky').css('height');-->
+<!--                var stopBlockHeight = $('.airSticky_stop-block').css('height');-->
+<!---->
+<!--                if(stopBlockHeight && stickyBlockHeight && (parseInt(stopBlockHeight) / parseInt(stickyBlockHeight)) > 1.3 ) {-->
+<!--                    $('.airSticky').airStickyBlock({-->
+<!--                        debug: false,-->
+<!--                        stopBlock: '.airSticky_stop-block'-->
+<!--                    });-->
+<!--                }-->
+<!--            };-->
+<!--        });-->
+<!--    </script>-->
+
+
+
+		<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+   ym(2021170, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/2021170" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->	<!-- Google Code for &#1055;&#1086;&#1089;&#1077;&#1090;&#1080;&#1083; &#1082;&#1072;&#1090;&#1072;&#1083;&#1086;&#1075; -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 996618559;
+var google_conversion_label = "Irj_CJH7xAQQv-Kc2wM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/996618559/?value=0&amp;label=Irj_CJH7xAQQv-Kc2wM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91924159-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-91924159-1');
+</script>
+</body>
+</html>
